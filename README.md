@@ -1,9 +1,16 @@
 # TQA
-sudo pip3 install transformers
 
-export TQA_DIR='./data'
+**How to install transformers library?**
+* sudo pip3 install transformers
+**or**
+* git clone https://github.com/huggingface/transformers
+* cd transformers
+* pip install .
 
-python3 run_multiple_choice.py \
+**Training**
+* export TQA_DIR='./data'
+
+* python3 run_multiple_choice.py \
 --model_type roberta \
 --task_name swag \
 --model_name_or_path roberta-base \
