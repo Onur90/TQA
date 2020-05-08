@@ -2,7 +2,7 @@
 
 **How to install transformers library?**
 * sudo pip3 install transformers
-**or**
+* **or**
 * git clone https://github.com/huggingface/transformers
 * cd transformers
 * pip install .
